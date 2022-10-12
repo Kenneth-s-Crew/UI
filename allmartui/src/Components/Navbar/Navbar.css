@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 94px;
+    background-color: #73628A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 35px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.header{
+    font-family: 'Atma', cursive;
+    font-size: 36px;
+}
+
+.wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
